@@ -3,7 +3,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     }
-  
+    section{
+        height: 500px;
+       margin-bottom: 80px;
+    }
+
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
@@ -64,4 +68,74 @@ body{
   .half-width img{
       width: 100%;
   }
+   h2{
+      font-size: 35px;
+      color: darkslateblue;
+  }
+  .bottom-part{
+    text-align: center;
+    padding-top: 70px;
+    height: 700px;
+    background-color: floralwhite;
+   
+  }
+  .project{
+    
+    height: 400px;
+    width: 23%;
+   display: inline-block;
+   margin: 20px;
+    padding: 1%;
+   
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+  }
+  .project img{
+      width: 100%;
+  }
+  h4{
+      text-align: left;
+      font-size: 25px;
+      color: rgba(0, 0, 0, 0.849);
+  }
+  .project p{
+      color: gray;
+      text-align: justify;
+  }
+  .work{
+      height: 200px;
+      width: 800px;
+      margin: auto;
+      
+      background: url("shapes/Group_33094_1.png");
+      background-repeat: no-repeat;
+      background-size: 800px 200px;
+    
+  }
+  h3{
+      color: white;
+      font-size: 40px; 
+      float: left;
+      margin-top: 90px;
+      margin-left: 40px;
+ }
+ .work a{
+    float: right;
+    margin-top: 80px;
+    margin-right: 40px;
+ }
+ .bottom{
+     margin-top: 100px;
+     text-align: center;
+     font-weight: 700;
+     
+ }
+ .bottom img{
+     margin: 10px;
+     height: 50px;
+     width: 50px;
+ }
+  
+ 
+
  
